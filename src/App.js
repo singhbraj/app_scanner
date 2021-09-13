@@ -39,6 +39,7 @@ class App extends Component {
           />
           <p style={{color:'black'}}>{this.state.result}</p>
         </Modal>
+        <p>{this.state.result}</p>
       </div>
     );
   }
